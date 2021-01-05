@@ -1,0 +1,29 @@
+ADT SqList
+{
+    数据对象：{e1,e2...en|e∈ElemSet}
+    数据关系：{<e1,e2>,...,<en-1,en>}
+    基本操作：
+    InitSqListbyAnArray(&T,ElemType[])
+        操作结果：用一个数组初始化一个顺序表
+    InsertSqList(&T,a,x,y)
+        初始条件：T已存在。
+        操作结果：查找并用a替换介于x，y之间的元素（第一个）。
+    DeleteSqList(&T,i)
+        初始条件：T已经存在。
+        操作结果：删除T中第i个元素。
+}
+
+ADT LinkList
+{
+    数据对象：{e1,e2...en|e∈ElemSet}
+    数据关系：{<e1,e2>,...,<en-1,en>}
+    基本操作：
+    InitLinklistbyAnArray(&T,ElemType[])
+        操作结果：用一个数组初始化一个线性表
+    InsertLinkList(&L,a,x,y)
+        初始条件：L已存在。
+        操作结果：查找并用a替换介于x，y之间的元素（第一个）。
+    DeleteLinkList(&L,i)
+        初始条件：L已经存在。
+        操作结果：删除L中第i个元素。
+}
